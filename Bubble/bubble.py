@@ -14,7 +14,7 @@ def bubble(vetor):
                 print(vetor[j+1], "TROCOU COM: ", vetor[j])
             else:
                 print(vetor[j], "NÃO TROCOU COM: ", vetor[j+1])
-            cont = cont + 1
+            cont = cont + 1 #CONTAGEM DE VERIFICAÇÕES
             print(vetor,"\n")
 
     print("VETOR ORDENADO: ", vetor,"\nTOTAL DE VERIFICAÇÕES: ",cont  )
