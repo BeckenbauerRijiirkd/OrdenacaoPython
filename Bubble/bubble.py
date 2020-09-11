@@ -7,7 +7,4 @@ def bubble(vetor):
                 vetor[j+1] = vetor[j] #ELEMENTO POSTERIOR RECEBE O ELEMENTO ANTERIOR. 
                 vetor[j] = aux # ELEMENTO ANTERIOR RECEBE O VALOR DA VARIAVEL AUXILIAR
     print(vetor)
-
-lista = [10,4,7,3,2,1]
-
-bubble(lista)
+    
